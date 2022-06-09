@@ -1,0 +1,187 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Banner Section */
+.bg-add
+{
+    padding:2% 3%;
+    margin: 2rem;
+    width: 90%;
+    border-radius: 30px;
+    background-image: url('assets/2392614.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+body
+{
+    background-color: rgb(241, 225, 197);
+}
+.main-head
+{
+    width: 80%;
+    font-size: 40px;
+}
+.nav-link
+{
+    font-weight:600;
+}
+.trail-button
+{
+    font-weight: 600;
+}
+.title-body
+{
+    padding:3%;
+}
+.title-feature
+{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5% 2%;
+    padding: 4%;
+}
+
+
+/* Info Section */
+
+.info
+{
+    background-color: white;
+    text-align: center;
+}
+#sub-h1
+{
+    padding: 2%;
+}
+.brands
+{
+    padding: 2% 5%;
+}
+.brand-id
+{
+    width: 80px;
+}
+
+
+/* Equipment Section */
+.equipment-container
+{
+    padding: 3% 0;
+    background-color: aliceblue;
+}
+.Equipment
+{
+    
+    padding: 2% 7%;
+}
+.equipment-text
+{
+    margin: auto;
+    
+}
+#information
+{
+    width: 120%;
+}
+.custom-equipment
+{
+    padding: 0 4%;
+}
+.Equipment > *
+{
+    padding: 3em;
+}
+
+@media screen and (max-width:987px) {
+    .custom-equipment
+    {
+        display: flex;
+        flex-flow: column;
+    }
+    #a{order: 2;}
+    #b{order: 1;}
+    .equipment-text
+    {
+        width: 30em;
+    }
+}
+
+/* Farming Section */
+.icons
+{
+    width: 50px;
+}
+h5
+{
+    font-weight: 700;
+}
+.important-container
+{
+    padding: 2% 0;
+}
+.important-col
+{
+    text-align: center;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+}
+p
+{
+    opacity: 0.7;
+}
+
+/* Consume Section */
+
+.banner-script
+{
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    border-radius: 20px;
+    background-color: rgb(44, 35, 93);
+    color: white;
+
+    padding: 10px 20px;
+}
+.arrow-button
+{
+    padding: 0 1.5rem;
+    border-radius: 20px;
+    background-color: rgb(68, 213, 68);
+}
+.above-footer-container
+{
+    background-color: white;
+    padding: 5% 0;
+}
+
+/* Footer Section */
+footer
+{
+    padding: 5% 7%;
+    background-image: url('assets/2392614.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.input-group
+{
+    padding: 10px 20px;
+    background-color: white;
+    width: fit-content;
+
+    border-radius: 5px;
+}
+.input-field
+{
+    border: none;
+}
+.submit-btn
+{
+    background-color: rgb(68, 213, 68);
+}
